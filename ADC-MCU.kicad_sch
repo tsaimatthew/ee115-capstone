@@ -4147,16 +4147,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "boot button, also used to change modes"
-		(exclude_from_sim no)
-		(at 290.068 85.598 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "51ac6717-abaf-4dba-bab0-415e7ef5c8e9")
-	)
 	(junction
 		(at 105.41 99.06)
 		(diameter 0)
@@ -4258,6 +4248,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6359ec28-3108-4ae3-8705-14229d32f3cd")
+	)
+	(junction
+		(at 269.24 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65924d23-016f-4a19-b817-1c027274a7f7")
 	)
 	(junction
 		(at 219.71 35.56)
@@ -4921,6 +4917,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 69.85) (xy 270.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9532cc11-2634-4f93-8624-64e1cefb0eef")
+	)
+	(wire
+		(pts
 			(xy 256.54 58.42) (xy 256.54 64.77)
 		)
 		(stroke
@@ -5499,16 +5505,6 @@
 		)
 		(uuid "54fc931e-ff94-480b-b676-a782f3e05a48")
 	)
-	(label "RST_SW"
-		(at 220.98 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6b4056bc-0618-426c-9c6c-8f259c3f275b")
-	)
 	(label "COMP_OUT"
 		(at 180.34 71.12 0)
 		(effects
@@ -5702,6 +5698,17 @@
 			(justify left)
 		)
 		(uuid "57783890-81d1-4ce4-82f5-746b673f8227")
+	)
+	(hierarchical_label "RANGE_SEL"
+		(shape input)
+		(at 220.98 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9d3f13e-315a-4e71-94f0-76aadd7ea76a")
 	)
 	(hierarchical_label "ADC_IN1"
 		(shape input)
@@ -6969,7 +6976,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 270.51 73.66 180)
+		(at 269.24 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6978,7 +6985,7 @@
 		(fields_autoplaced yes)
 		(uuid "34c9b9d7-accf-4880-b772-22e30091d0cb")
 		(property "Reference" "R19"
-			(at 273.05 72.3899 0)
+			(at 271.78 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6987,7 +6994,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 273.05 74.9299 0)
+			(at 271.78 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +7003,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 272.288 73.66 90)
+			(at 271.018 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7005,7 +7012,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 73.66 0)
+			(at 269.24 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,7 +7021,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 270.51 73.66 0)
+			(at 269.24 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

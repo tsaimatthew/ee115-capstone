@@ -4147,6 +4147,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "boot button, also used to change modes"
+		(exclude_from_sim no)
+		(at 290.068 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51ac6717-abaf-4dba-bab0-415e7ef5c8e9")
+	)
 	(junction
 		(at 105.41 99.06)
 		(diameter 0)
@@ -4352,16 +4362,8 @@
 		(uuid "ff95a6b0-1622-44a5-a5ef-1487317329be")
 	)
 	(no_connect
-		(at 220.98 77.47)
-		(uuid "0cbb5209-d564-49aa-84ed-ac4c5189e135")
-	)
-	(no_connect
 		(at 219.71 30.48)
 		(uuid "957715ef-91ec-4599-8c8d-10e75cddf587")
-	)
-	(no_connect
-		(at 256.54 74.93)
-		(uuid "a9df2f31-9348-4634-b841-67e01e25fd90")
 	)
 	(no_connect
 		(at 255.27 22.86)
@@ -4426,6 +4428,16 @@
 			(type default)
 		)
 		(uuid "10b9e472-cb88-4579-bf86-7381b38610a8")
+	)
+	(wire
+		(pts
+			(xy 196.85 77.47) (xy 220.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141abd38-3439-46ce-999d-2f31ee851696")
 	)
 	(wire
 		(pts
@@ -5199,6 +5211,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 74.93) (xy 279.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3967a60-729f-40b9-bbb6-e7aeedc2c2be")
+	)
+	(wire
+		(pts
 			(xy 212.09 35.56) (xy 219.71 35.56)
 		)
 		(stroke
@@ -5266,6 +5288,16 @@
 			(type default)
 		)
 		(uuid "f0a75bb4-5192-4359-83d2-8e497cfcbda7")
+	)
+	(wire
+		(pts
+			(xy 256.54 74.93) (xy 279.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f256aa4d-508f-4f88-9870-80de27c18112")
 	)
 	(wire
 		(pts
@@ -6936,6 +6968,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 270.51 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34c9b9d7-accf-4880-b772-22e30091d0cb")
+		(property "Reference" "R19"
+			(at 273.05 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 273.05 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 272.288 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 270.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "296c1250-81e0-4ed7-88aa-56b4d57d5689")
+		)
+		(pin "2"
+			(uuid "519a4828-6148-43e6-ad19-d9fa237684b2")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 266.7 58.42 0)
 		(unit 1)
@@ -8321,7 +8423,7 @@
 		(dnp no)
 		(uuid "62d15b0a-91c3-4869-950d-32983efca36b")
 		(property "Reference" "SW1"
-			(at 274.32 69.85 0)
+			(at 274.828 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,7 +8431,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 274.32 72.136 0)
+			(at 274.574 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10085,6 +10187,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 279.4 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cfcb477-5042-4f9e-bca8-702f219bb6c2")
+		(property "Reference" "#PWR056"
+			(at 279.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 281.94 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 279.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce377bf4-6126-41eb-afee-b89ff87e0997")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 162.56 143.51 180)
 		(unit 1)
@@ -10237,6 +10406,76 @@
 			(project ""
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a943d907-af43-4d13-90a8-e636c1609ed4")
+		(property "Reference" "R17"
+			(at 199.39 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 199.39 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 198.628 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0551724e-0a48-4b31-b3c3-61c2fc7b04d0")
+		)
+		(pin "2"
+			(uuid "d5791108-579c-43d7-996e-9764bcf6e522")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -10567,6 +10806,72 @@
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 270.51 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bba35dcd-6acd-4536-96bc-9a4c6e5c050c")
+		(property "Reference" "#PWR057"
+			(at 270.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 271.78 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 270.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d16eca4-f271-46f7-b739-bf971abd6d74")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11170,6 +11475,73 @@
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 196.85 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6634622-da17-49dd-a72d-2c927f32d18a")
+		(property "Reference" "#PWR055"
+			(at 196.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 199.39 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8e033ad-9a2b-4653-8ac4-5b5cbbf7e2e9")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -12156,6 +12528,76 @@
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 279.4 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f378982a-df15-46cb-8063-2f20e4b40306")
+		(property "Reference" "R18"
+			(at 281.94 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 281.94 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 281.178 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 279.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ac40300-f42c-4fa0-a914-80775e237d0d")
+		)
+		(pin "2"
+			(uuid "8ac35b1c-1639-40c6-9135-0a47d4d4340e")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
+					(reference "R18")
 					(unit 1)
 				)
 			)

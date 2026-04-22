@@ -629,6 +629,10 @@
     [
       "70c590be-37b3-451b-9092-80cd15b0f8be",
       "ADC-MCU"
+    ],
+    [
+      "e24f2e4d-b9f9-4238-8a61-8afad2c18f38",
+      "Sawtooth Generator"
     ]
   ],
   "text_variables": {}

@@ -1170,164 +1170,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DIP_x01"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DIP_x01"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dip switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW?DIP?x1*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DIP_x01_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DIP_x01_0_1"
-				(rectangle
-					(start -3.81 2.54)
-					(end 3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SW_DIP_x01_1_1"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -1849,6 +1691,12 @@
 		(uuid "4b09e1f6-58f1-42f2-8923-928237b47d20")
 	)
 	(junction
+		(at 77.47 62.865)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5de6ef4d-01d4-4945-9c5a-23f6a502d3ed")
+	)
+	(junction
 		(at 59.69 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1867,6 +1715,12 @@
 		(uuid "76bd8148-d7e0-44ca-955e-d3276900a4af")
 	)
 	(junction
+		(at 31.75 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0e812b0-466d-46f9-841c-1499262489ef")
+	)
+	(junction
 		(at 48.26 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1883,12 +1737,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea0132c3-ecf1-44d0-8fd1-03d3a3c49589")
-	)
-	(junction
-		(at 31.75 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8df1c4d-f2cc-4abf-8864-d10f879e04f8")
 	)
 	(wire
 		(pts
@@ -1912,13 +1760,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 53.34) (xy 77.47 53.34)
+			(xy 77.47 62.865) (xy 77.47 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "161a13b6-4232-4d09-85b4-3d5e208271cb")
+		(uuid "12617132-905a-43a3-be23-816e1a686add")
 	)
 	(wire
 		(pts
@@ -1942,16 +1790,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 53.34) (xy 31.75 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "517ded2c-02b0-4d81-a30a-73d0dbe6cbda")
-	)
-	(wire
-		(pts
 			(xy 71.12 76.2) (xy 67.31 76.2)
 		)
 		(stroke
@@ -1969,6 +1807,26 @@
 			(type default)
 		)
 		(uuid "5fc2ee26-0c9a-4616-bbb3-625f187ff155")
+	)
+	(wire
+		(pts
+			(xy 31.75 53.34) (xy 31.75 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff78e54-3080-4397-84e8-d44f64366621")
+	)
+	(wire
+		(pts
+			(xy 77.47 62.865) (xy 90.17 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667caa11-c950-4dce-adcd-3c2662a845eb")
 	)
 	(wire
 		(pts
@@ -2012,6 +1870,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 53.34) (xy 77.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98820c4c-af30-495c-8425-e624fbb09c6d")
+	)
+	(wire
+		(pts
 			(xy 67.31 86.36) (xy 59.69 86.36)
 		)
 		(stroke
@@ -2052,7 +1920,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 53.34) (xy 77.47 63.5)
+			(xy 77.47 53.34) (xy 77.47 62.865)
 		)
 		(stroke
 			(width 0)
@@ -2159,16 +2027,6 @@
 			(justify left bottom)
 		)
 		(uuid "7552ae5c-94a1-4ecd-ab03-731c418c62f9")
-	)
-	(label "PWR_IN"
-		(at 77.47 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91ae53dd-7f19-43cb-8f25-e097f10d97d2")
 	)
 	(label "Thermopile"
 		(at 191.77 69.85 180)
@@ -3311,6 +3169,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 35.56 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb6ab82a-f4eb-4cef-a27f-da5ccae606d9")
+		(property "Reference" "R14"
+			(at 35.56 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 35.56 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 35.56 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 35.56 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb5a6abe-8d8f-45db-ac3c-d89b30cfde88")
+		)
+		(pin "2"
+			(uuid "3e17b508-caa7-471e-bd78-5fcf79e6e538")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 43.18 76.2 90)
 		(unit 1)
@@ -3375,74 +3301,6 @@
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 39.37 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e792a71f-8ced-49c6-8fa8-31e5b1c0b139")
-		(property "Reference" "SW4"
-			(at 39.37 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 39.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd2ca269-dd53-4bef-8869-1a6348452948")
-		)
-		(pin "2"
-			(uuid "c16876c7-e31f-44f5-b342-30e302562a73")
-		)
-		(instances
-			(project "ee115-capstone"
-				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -3680,6 +3538,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PWR_IN" input
+			(at 90.17 62.865 180)
+			(uuid "9cfb0371-9c84-433f-b254-23bf10ddb6ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3V5" output
+			(at 109.22 62.865 0)
+			(uuid "51a34656-469e-40cf-9d1d-a5db48e03694")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

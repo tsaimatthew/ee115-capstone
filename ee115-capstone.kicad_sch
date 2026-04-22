@@ -1691,12 +1691,6 @@
 		(uuid "4b09e1f6-58f1-42f2-8923-928237b47d20")
 	)
 	(junction
-		(at 77.47 62.865)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5de6ef4d-01d4-4945-9c5a-23f6a502d3ed")
-	)
-	(junction
 		(at 59.69 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1709,10 +1703,22 @@
 		(uuid "6ccc24b1-b16b-4c40-adfb-819e7d786169")
 	)
 	(junction
+		(at 77.47 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "746857a0-c79f-4aee-a2b2-8a5c1b012b29")
+	)
+	(junction
 		(at 43.18 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76bd8148-d7e0-44ca-955e-d3276900a4af")
+	)
+	(junction
+		(at 87.63 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e2b78bc-e3a4-4ee1-863f-b02d52128777")
 	)
 	(junction
 		(at 31.75 53.34)
@@ -1750,6 +1756,36 @@
 	)
 	(wire
 		(pts
+			(xy 121.285 55.88) (xy 121.285 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03061abb-060b-448e-b5c3-383d4591064e")
+	)
+	(wire
+		(pts
+			(xy 111.125 82.55) (xy 119.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b20450-844a-43a5-b4fb-4866b985da28")
+	)
+	(wire
+		(pts
+			(xy 87.63 55.88) (xy 92.075 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2fd7aa-0392-4bfe-891b-6d5a62e3bda9")
+	)
+	(wire
+		(pts
 			(xy 191.77 67.31) (xy 193.04 67.31)
 		)
 		(stroke
@@ -1757,16 +1793,6 @@
 			(type default)
 		)
 		(uuid "0e60d060-e7f3-4846-8492-42777995b25d")
-	)
-	(wire
-		(pts
-			(xy 77.47 62.865) (xy 77.47 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12617132-905a-43a3-be23-816e1a686add")
 	)
 	(wire
 		(pts
@@ -1790,6 +1816,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.285 63.5) (xy 125.73 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5852b42d-8d9c-495a-a7f0-7644e6ffb68b")
+	)
+	(wire
+		(pts
 			(xy 71.12 76.2) (xy 67.31 76.2)
 		)
 		(stroke
@@ -1797,6 +1833,16 @@
 			(type default)
 		)
 		(uuid "597abadf-147e-4822-80b5-2da73f8e75ce")
+	)
+	(wire
+		(pts
+			(xy 119.38 67.945) (xy 125.73 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3ba117-c92a-467a-9a4b-297e7bf399c0")
 	)
 	(wire
 		(pts
@@ -1820,13 +1866,23 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 62.865) (xy 90.17 62.865)
+			(xy 77.47 55.88) (xy 87.63 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "667caa11-c950-4dce-adcd-3c2662a845eb")
+	)
+	(wire
+		(pts
+			(xy 87.63 80.01) (xy 92.075 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b348ca9-0889-4cb1-b3e5-46d5f404e8d2")
 	)
 	(wire
 		(pts
@@ -1880,6 +1936,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.125 55.88) (xy 121.285 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e35236-4ea9-403e-94e3-bd3c8875895e")
+	)
+	(wire
+		(pts
 			(xy 67.31 86.36) (xy 59.69 86.36)
 		)
 		(stroke
@@ -1887,6 +1953,16 @@
 			(type default)
 		)
 		(uuid "a16c8ca9-6f41-4db4-a1e4-6fe29bd72669")
+	)
+	(wire
+		(pts
+			(xy 119.38 82.55) (xy 119.38 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d31109-9a96-44f9-9bf5-096a75802097")
 	)
 	(wire
 		(pts
@@ -1920,13 +1996,33 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 53.34) (xy 77.47 62.865)
+			(xy 77.47 55.88) (xy 77.47 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6066c43-b04d-4e17-86ec-87945bb5fbc8")
+	)
+	(wire
+		(pts
+			(xy 77.47 53.34) (xy 77.47 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bedecd1f-aa37-42a8-8af7-4ae49c6d72b2")
+	)
+	(wire
+		(pts
+			(xy 87.63 55.88) (xy 87.63 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb540e52-1402-49ab-b510-8c2413ba095b")
 	)
 	(wire
 		(pts
@@ -3507,7 +3603,7 @@
 		)
 	)
 	(sheet
-		(at 90.17 59.69)
+		(at 92.075 52.705)
 		(size 19.05 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3523,7 +3619,7 @@
 		)
 		(uuid "7b7808b9-ad0e-40e5-acbd-cc767749d54b")
 		(property "Sheetname" "Buck Converter"
-			(at 90.17 58.9784 0)
+			(at 92.075 51.9934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3628,7 @@
 			)
 		)
 		(property "Sheetfile" "buck.kicad_sch"
-			(at 90.17 72.9746 0)
+			(at 92.075 65.9896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +3637,7 @@
 			)
 		)
 		(pin "PWR_IN" input
-			(at 90.17 62.865 180)
+			(at 92.075 55.88 180)
 			(uuid "9cfb0371-9c84-433f-b254-23bf10ddb6ba")
 			(effects
 				(font
@@ -3551,7 +3647,7 @@
 			)
 		)
 		(pin "+3V5" output
-			(at 109.22 62.865 0)
+			(at 111.125 55.88 0)
 			(uuid "51a34656-469e-40cf-9d1d-a5db48e03694")
 			(effects
 				(font
@@ -3602,6 +3698,36 @@
 				(justify left top)
 			)
 		)
+		(pin "+3.3V" output
+			(at 143.51 63.5 0)
+			(uuid "f0b6772a-2234-4e2a-bc0c-8774b81536d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3.5V" input
+			(at 125.73 63.5 180)
+			(uuid "31274a84-4e37-44b3-a654-13129dcf7a7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "volt_ref" input
+			(at 125.73 67.945 180)
+			(uuid "0c298519-5b89-4ef0-a590-79e26c628077")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
@@ -3611,7 +3737,7 @@
 		)
 	)
 	(sheet
-		(at 154.94 59.69)
+		(at 92.075 76.2)
 		(size 19.05 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3626,8 +3752,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f9a58703-208b-4912-8ecc-b446bce1daf7")
-		(property "Sheetname" "sensor-bandgap"
-			(at 154.94 58.9784 0)
+		(property "Sheetname" "bandgap"
+			(at 92.075 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,12 +3762,42 @@
 			)
 		)
 		(property "Sheetfile" "sensor-bandgap.kicad_sch"
-			(at 154.94 72.9746 0)
+			(at 92.075 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PWR_IN" input
+			(at 92.075 80.01 180)
+			(uuid "63015fb5-c036-40fa-96d2-74f22679f138")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "bandgap_volt" output
+			(at 111.125 82.55 0)
+			(uuid "f0811f6e-b952-446b-8948-919765b3c33f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PTAT_current" output
+			(at 111.125 85.09 0)
+			(uuid "a1e5d8d8-0904-46b7-a9a0-7d38942c6d98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

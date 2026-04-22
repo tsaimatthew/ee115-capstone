@@ -624,14 +624,14 @@
     ],
     [
       "f9a58703-208b-4912-8ecc-b446bce1daf7",
-      "sensor-bandgap"
+      "bandgap"
     ],
     [
       "70c590be-37b3-451b-9092-80cd15b0f8be",
       "ADC-MCU"
     ],
     [
-      "e24f2e4d-b9f9-4238-8a61-8afad2c18f38",
+      "a9cb2592-b885-475a-9096-2cffb4092259",
       "Sawtooth Generator"
     ]
   ],

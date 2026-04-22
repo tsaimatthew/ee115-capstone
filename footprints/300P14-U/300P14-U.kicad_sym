@@ -1,0 +1,458 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "300P14-U" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -10.16 18.542 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "300P14-U" (id 1) (at -10.16 -20.32 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "300P14-U:DIP794W46P254L1917H432Q14" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "L1_NOM" "" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SNAPEDA_PACKAGE_ID" "" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "B_NOM" "0.46" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "EMAX" "" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "D_MAX" "19.175" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE_TYPE" "" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "D1_NOM" "" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "E1_NOM" "6.48" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DMAX" "" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "E1_MIN" "6.48" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "L1_MIN" "" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "B_MAX" "0.51" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Transistor Arrays 4 NPN Matched Trans. Array DIP-14\n                        \n" (id 16) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "EMIN" "" (id 17) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 18) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "ENOM" "2.54" (id 19) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "D_NOM" "19.175" (id 20) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VACANCIES" "" (id 21) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "A_MAX" "4.32" (id 22) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "D1_MAX" "" (id 23) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "DIP-14 THAT Corporation" (id 24) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "L1_MAX" "" (id 25) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "D1_MIN" "" (id 26) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "A_NOM" "4.32" (id 27) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/300P14-U/THAT+Corporation/view-part/?ref=eda" (id 28) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "A_MIN" "4.32" (id 29) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC 7351B" (id 30) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "04" (id 31) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DNOM" "" (id 32) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/300P14-U/THAT+Corporation/view-part/?ref=snap" (id 33) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DMIN" "" (id 34) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "E_NOM" "7.94" (id 35) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "B_MIN" "0.41" (id 36) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PIN_COUNT" "14.0" (id 37) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "THAT Corporation" (id 38) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "THAT Corporation" (id 39) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "E1_MAX" "6.48" (id 40) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "D_MIN" "19.175" (id 41) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "300P14-U" (id 42) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PINS" "" (id 43) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "Not in stock" (id 44) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "300P14-U_0_0"
+      (polyline
+        (pts (xy -2.54 12.7) (xy -4.572 11.684)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.302 8.636) (xy -2.54 7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 7.62) (xy -3.81 7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.81 7.62) (xy -3.302 8.636)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.54 8.12) (xy -4.772 8.736)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.556 7.747) (xy -2.794 7.747)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.794 7.747) (xy -3.302 8.382)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.302 8.382) (xy -3.556 7.874)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.556 7.874) (xy -3.175 7.874)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.175 7.874) (xy -3.302 8.128)) (stroke (width 0.254))
+      )
+      (rectangle (start -5.334 7.62) (end -4.572 12.7)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -2.54 12.7) (xy -2.54 15.24)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 15.24) (xy -12.7 15.24)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 10.16) (xy -12.7 10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 7.62) (xy -2.54 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 5.08) (xy -12.7 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -7.62) (xy 4.572 -6.604)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.302 -3.556) (xy 2.54 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy 3.81 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.81 -2.54) (xy 3.302 -3.556)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.54 -3.04) (xy 4.772 -3.656)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.556 -2.667) (xy 2.794 -2.667)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.794 -2.667) (xy 3.302 -3.302)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.302 -3.302) (xy 3.556 -2.794)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.556 -2.794) (xy 3.175 -2.794)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.175 -2.794) (xy 3.302 -3.048)) (stroke (width 0.254))
+      )
+      (rectangle (start 4.572 -7.62) (end 5.334 -2.54)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 2.54 -7.62) (xy 2.54 -10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -10.16) (xy 12.7 -10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 12.7 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy 2.54 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 12.7 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 -7.62) (xy -4.572 -6.604)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.302 -3.556) (xy -2.54 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy -3.81 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.81 -2.54) (xy -3.302 -3.556)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.54 -3.04) (xy -4.772 -3.656)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.556 -2.667) (xy -2.794 -2.667)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.794 -2.667) (xy -3.302 -3.302)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.302 -3.302) (xy -3.556 -2.794)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.556 -2.794) (xy -3.175 -2.794)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.175 -2.794) (xy -3.302 -3.048)) (stroke (width 0.254))
+      )
+      (rectangle (start -5.334 -7.62) (end -4.572 -2.54)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -2.54 -7.62) (xy -2.54 -10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 -10.16) (xy -12.7 -10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -5.08) (xy -12.7 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy -2.54 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy -12.7 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 12.7) (xy 4.572 11.684)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.302 8.636) (xy 2.54 7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 7.62) (xy 3.81 7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.81 7.62) (xy 3.302 8.636)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.54 8.12) (xy 4.772 8.736)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.556 7.747) (xy 2.794 7.747)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.794 7.747) (xy 3.302 8.382)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.302 8.382) (xy 3.556 7.874)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.556 7.874) (xy 3.175 7.874)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.175 7.874) (xy 3.302 8.128)) (stroke (width 0.254))
+      )
+      (rectangle (start 4.572 7.62) (end 5.334 12.7)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 2.54 12.7) (xy 2.54 15.24)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 15.24) (xy 12.7 15.24)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 10.16) (xy 12.7 10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 7.62) (xy 2.54 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 5.08) (xy 12.7 5.08)) (stroke (width 0.1524))
+      )
+      (text "Q1" (at -3.302 9.652 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (text "Q2" (at 1.778 9.652 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (text "Q3" (at -3.556 -5.842 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (text "Q4" (at 1.524 -5.842 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (rectangle (start -10.16 -17.78) (end 10.16 17.78)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -15.24 10.16 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -15.24 5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -15.24 15.24 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 15.24 -5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 15.24 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 15.24 -10.16 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -15.24 -5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -15.24 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -15.24 -10.16 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 15.24 10.16 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 15.24 5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 15.24 15.24 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 15.24 -15.24 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 15.24 -15.24 180.0) (length 5.08) hide
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

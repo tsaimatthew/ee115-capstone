@@ -4892,7 +4892,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 156.21) (xy 104.14 156.21)
+			(xy 102.87 156.21) (xy 111.76 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5620,16 +5620,6 @@
 		)
 		(uuid "ff5f7520-0521-41ba-bb1a-8264849e6b71")
 	)
-	(label "COMP_OUT"
-		(at 256.54 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0579d34b-4e37-4aeb-9c81-68bf28e81e67")
-	)
 	(label "SDA"
 		(at 247.65 132.08 0)
 		(effects
@@ -5790,6 +5780,16 @@
 		)
 		(uuid "7cdd97be-c1b5-4745-ad50-7c7d3d1c0266")
 	)
+	(label "COMP_OUT"
+		(at 256.54 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87a92a0a-8bc7-40c7-b09c-b85f39c3e1e7")
+	)
 	(label "SDA"
 		(at 215.9 87.63 0)
 		(effects
@@ -5851,14 +5851,14 @@
 		(uuid "d234b7e4-6fc1-459b-b8ba-b3acf576beaa")
 	)
 	(label "MUX_B"
-		(at 213.36 95.25 0)
+		(at 256.54 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "dd4d7888-3dea-46a5-8827-4a01295291e3")
+		(uuid "dbe28cda-d4bd-4b00-816b-13e94e4afde3")
 	)
 	(label "BOOT"
 		(at 256.54 77.47 0)
@@ -5890,6 +5890,16 @@
 		)
 		(uuid "e7ff69ad-51df-482f-96f7-40b34d33261c")
 	)
+	(label "MUX_A"
+		(at 213.36 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e920182f-91c7-45d9-b47a-f03e3cf4932e")
+	)
 	(label "SCL"
 		(at 247.65 129.54 0)
 		(effects
@@ -5909,16 +5919,6 @@
 			(justify left bottom)
 		)
 		(uuid "f0ed8490-55fc-410f-bd3f-022f5c2d735d")
-	)
-	(label "MUX_A"
-		(at 256.54 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7330597-a5c7-4db5-b0d8-1508edccd437")
 	)
 	(label "USB_D+"
 		(at 209.55 25.4 0)
@@ -12949,74 +12949,6 @@
 			(project ""
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 156.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f338fc39-a6e9-412c-b53d-78bbc5886c2a")
-		(property "Reference" "R8"
-			(at 107.95 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 107.95 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 107.95 157.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b65ed9c-6250-4cf5-aac5-752a5386cde3")
-		)
-		(pin "2"
-			(uuid "054fbfaa-165d-4bb2-b454-9f379f23edf6")
-		)
-		(instances
-			(project "ee115-capstone"
-				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
-					(reference "R8")
 					(unit 1)
 				)
 			)

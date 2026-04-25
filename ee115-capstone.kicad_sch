@@ -2077,6 +2077,12 @@
 		)
 	)
 	(junction
+		(at 120.015 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "228fbb9f-72a9-4f1c-8895-e174c03dd7a6")
+	)
+	(junction
 		(at 48.26 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2200,7 +2206,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 63.5) (xy 146.05 62.23)
+			(xy 149.225 63.5) (xy 149.225 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2227,16 +2233,6 @@
 			(type default)
 		)
 		(uuid "11b82a0d-e22e-4a1c-a905-c26c573c7b0a")
-	)
-	(wire
-		(pts
-			(xy 143.51 63.5) (xy 146.05 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "175d5342-78c8-474a-9094-584094f6f805")
 	)
 	(wire
 		(pts
@@ -2270,6 +2266,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.685 63.5) (xy 149.225 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313cfecf-008d-4273-aec1-d9a74afebf46")
+	)
+	(wire
+		(pts
 			(xy 43.18 63.5) (xy 48.26 63.5)
 		)
 		(stroke
@@ -2290,7 +2296,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 63.5) (xy 125.73 63.5)
+			(xy 121.92 63.5) (xy 125.857 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2310,7 +2316,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.015 67.945) (xy 125.73 67.945)
+			(xy 120.015 67.31) (xy 125.857 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2337,6 +2343,16 @@
 			(type default)
 		)
 		(uuid "5ff78e54-3080-4397-84e8-d44f64366621")
+	)
+	(wire
+		(pts
+			(xy 120.015 58.42) (xy 111.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ae6e36-0ea9-4463-812e-9372cf57195a")
 	)
 	(wire
 		(pts
@@ -2400,7 +2416,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 71.12) (xy 124.46 71.12)
+			(xy 125.857 71.12) (xy 124.46 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2470,6 +2486,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.015 67.31) (xy 120.015 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae4492d-f968-4a62-9d04-b345c33479e1")
+	)
+	(wire
+		(pts
 			(xy 67.31 86.36) (xy 59.69 86.36)
 		)
 		(stroke
@@ -2480,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.015 82.55) (xy 120.015 67.945)
+			(xy 120.015 67.31) (xy 120.015 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2916,7 +2942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 191.77 106.68 0)
 			(effects
 				(font
@@ -3259,7 +3285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 190.5 118.11 0)
 			(effects
 				(font
@@ -3368,7 +3394,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 146.05 62.23 0)
+		(at 149.225 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3377,7 +3403,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bd2516f-a6d3-4d04-a39d-18c73048d02c")
 		(property "Reference" "#PWR095"
-			(at 146.05 66.04 0)
+			(at 149.225 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +3412,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 146.05 57.15 0)
+			(at 149.225 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +3420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 62.23 0)
+			(at 149.225 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +3429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 62.23 0)
+			(at 149.225 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +3438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 146.05 62.23 0)
+			(at 149.225 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +3620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 189.23 113.03 0)
 			(effects
 				(font
@@ -3727,7 +3753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 189.23 110.49 0)
 			(effects
 				(font
@@ -4735,6 +4761,16 @@
 				(justify right)
 			)
 		)
+		(pin "bg_volt" input
+			(at 111.76 58.42 0)
+			(uuid "607325f1-0e4a-4a3b-acb6-575fa451f373")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
@@ -4744,7 +4780,7 @@
 		)
 	)
 	(sheet
-		(at 125.73 59.69)
+		(at 125.857 59.69)
 		(size 20.828 16.002)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4760,7 +4796,7 @@
 		)
 		(uuid "d0fb3630-b484-4405-bb3b-b4246eeb0dac")
 		(property "Sheetname" "LDO"
-			(at 125.73 58.9784 0)
+			(at 125.857 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +4805,7 @@
 			)
 		)
 		(property "Sheetfile" "ldo.kicad_sch"
-			(at 125.73 76.2766 0)
+			(at 125.857 76.2766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +4814,7 @@
 			)
 		)
 		(pin "+3.3V" output
-			(at 146.558 63.5 0)
+			(at 146.685 63.5 0)
 			(uuid "f0b6772a-2234-4e2a-bc0c-8774b81536d4")
 			(effects
 				(font
@@ -4788,7 +4824,7 @@
 			)
 		)
 		(pin "+3.5V" input
-			(at 125.73 63.5 180)
+			(at 125.857 63.5 180)
 			(uuid "31274a84-4e37-44b3-a654-13129dcf7a7c")
 			(effects
 				(font
@@ -4798,7 +4834,7 @@
 			)
 		)
 		(pin "volt_ref" input
-			(at 125.73 67.945 180)
+			(at 125.857 67.31 180)
 			(uuid "0c298519-5b89-4ef0-a590-79e26c628077")
 			(effects
 				(font
@@ -4808,7 +4844,7 @@
 			)
 		)
 		(pin "PWR_IN" input
-			(at 125.73 71.12 180)
+			(at 125.857 71.12 180)
 			(uuid "72e73e8d-e318-4b90-a3f8-4b421a454424")
 			(effects
 				(font

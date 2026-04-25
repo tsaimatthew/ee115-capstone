@@ -6113,7 +6113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 171.45 73.66 0)
 			(effects
 				(font
@@ -10362,7 +10362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 175.26 71.12 0)
 			(effects
 				(font
@@ -10562,7 +10562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 173.99 109.22 0)
 			(effects
 				(font
@@ -11930,7 +11930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 105.41 104.14 0)
 			(effects
 				(font

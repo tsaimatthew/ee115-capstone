@@ -1092,6 +1092,12 @@
 		(uuid "19403474-8d35-4491-bd3b-2085a6422bd1")
 	)
 	(junction
+		(at 135.255 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5422f6fc-1c31-4f71-b19d-5f2f41820ad7")
+	)
+	(junction
 		(at 141.605 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1181,6 +1187,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.255 41.91) (xy 133.35 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f775e7-1730-434c-9b09-5b84f3f0d0bd")
+	)
+	(wire
+		(pts
 			(xy 71.755 60.96) (xy 76.2 60.96)
 		)
 		(stroke
@@ -1198,6 +1214,16 @@
 			(type default)
 		)
 		(uuid "3c59c895-c0cf-4fe0-8c27-798288b6fc67")
+	)
+	(wire
+		(pts
+			(xy 133.35 58.42) (xy 132.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c687328-3dab-4cad-bea7-1b9427b60b62")
 	)
 	(wire
 		(pts
@@ -1228,6 +1254,16 @@
 			(type default)
 		)
 		(uuid "5f74963e-8581-4734-bea9-427b3b5ad343")
+	)
+	(wire
+		(pts
+			(xy 133.35 41.91) (xy 133.35 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b22986-640d-4510-868d-1ba48566401b")
 	)
 	(wire
 		(pts
@@ -1311,6 +1347,16 @@
 	)
 	(wire
 		(pts
+			(xy 136.525 41.91) (xy 135.255 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c00241-dc22-42c3-8cfb-aecb9ff1110c")
+	)
+	(wire
+		(pts
 			(xy 141.605 105.41) (xy 141.605 101.6)
 		)
 		(stroke
@@ -1373,7 +1419,7 @@
 	)
 	(hierarchical_label "PWR_IN"
 		(shape input)
-		(at 132.08 58.42 0)
+		(at 136.525 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1772,6 +1818,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 135.255 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38e8e1fa-e90f-45be-abbc-cc6b2608fc78")
+		(property "Reference" "C45"
+			(at 138.43 43.5609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 138.43 46.1009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 136.2202 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.255 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.255 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1268591e-b5e6-40b0-9d38-d0e8bb867d27")
+		)
+		(pin "2"
+			(uuid "83171e02-dfd5-4559-8588-eb54ee7a1219")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/d0fb3630-b484-4405-bb3b-b4246eeb0dac"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 137.795 60.96 270)
 		(unit 1)
@@ -1834,6 +1949,72 @@
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/d0fb3630-b484-4405-bb3b-b4246eeb0dac"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.255 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c1c254a-65c6-4bed-917d-f5bf9ad0a026")
+		(property "Reference" "#PWR0114"
+			(at 135.255 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.255 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.255 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.255 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.255 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a358db2-7f00-47f1-ae85-b0484368abc9")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/d0fb3630-b484-4405-bb3b-b4246eeb0dac"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)

@@ -1908,6 +1908,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "capstone:GF-123-0054"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "GF-123-0054"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SW2_GF-123-0054_CWI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "GF-123-0054"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "GF-123-0054"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW2_GF-123-0054_CWI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GF-123-0054_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2261,6 +2437,12 @@
 		)
 	)
 	(junction
+		(at 29.21 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "060871d3-c473-490f-9aae-71268ba133f2")
+	)
+	(junction
 		(at 120.015 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2303,12 +2485,6 @@
 		(uuid "629061b5-6303-4e56-a374-30b6a05799e1")
 	)
 	(junction
-		(at 31.75 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6902c813-9424-4bbe-b647-fc9bc626256d")
-	)
-	(junction
 		(at 67.31 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2327,12 +2503,6 @@
 		(uuid "76bd8148-d7e0-44ca-955e-d3276900a4af")
 	)
 	(junction
-		(at 39.37 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cf0a416-d6cd-4bc2-ad89-c4443419ceb3")
-	)
-	(junction
 		(at 87.63 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2343,6 +2513,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98d425fd-62b0-430c-bc3c-23aca10f8cd6")
+	)
+	(junction
+		(at 44.45 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b3001be-01a2-4cab-a5b9-5ee36e7bfd67")
 	)
 	(junction
 		(at 33.655 82.55)
@@ -2357,12 +2533,6 @@
 		(uuid "b0ca6e54-e098-4345-b3dc-edd44a3f4dd0")
 	)
 	(junction
-		(at 31.75 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0e812b0-466d-46f9-841c-1499262489ef")
-	)
-	(junction
 		(at 48.26 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2375,10 +2545,10 @@
 		(uuid "d15e6557-4b17-475c-923f-f1f7e2f555cb")
 	)
 	(junction
-		(at 31.75 82.55)
+		(at 29.21 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea0132c3-ecf1-44d0-8fd1-03d3a3c49589")
+		(uuid "ea30fb89-5d75-4eb4-b78c-e313edb43d41")
 	)
 	(wire
 		(pts
@@ -2429,16 +2599,6 @@
 			(type default)
 		)
 		(uuid "06016764-cb8a-4457-a750-5920b85783c6")
-	)
-	(wire
-		(pts
-			(xy 31.75 70.485) (xy 31.75 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07165c5d-cf3c-4f6a-a8df-f5eaac242dc9")
 	)
 	(wire
 		(pts
@@ -2512,7 +2672,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 71.12) (xy 31.75 72.39)
+			(xy 29.21 71.12) (xy 29.21 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2542,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 72.39) (xy 77.47 72.39)
+			(xy 39.37 72.39) (xy 44.45 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2569,6 +2729,16 @@
 			(type default)
 		)
 		(uuid "55a69c01-48ed-4dfd-9935-f07aeedb2ca8")
+	)
+	(wire
+		(pts
+			(xy 44.45 72.39) (xy 77.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5691f278-91dd-445c-82f0-07c71a07dc82")
 	)
 	(wire
 		(pts
@@ -2609,16 +2779,6 @@
 			(type default)
 		)
 		(uuid "5fc2ee26-0c9a-4616-bbb3-625f187ff155")
-	)
-	(wire
-		(pts
-			(xy 31.75 72.39) (xy 31.75 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ff78e54-3080-4397-84e8-d44f64366621")
 	)
 	(wire
 		(pts
@@ -2672,16 +2832,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 82.55) (xy 29.21 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "760bd1ee-57bd-4ebf-a298-00abd4425d9c")
-	)
-	(wire
-		(pts
 			(xy 87.63 73.66) (xy 92.71 73.66)
 		)
 		(stroke
@@ -2722,16 +2872,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 82.55) (xy 33.655 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a6900ae-6d33-43a0-96d8-05cf3f2b7dd8")
-	)
-	(wire
-		(pts
 			(xy 127 24.13) (xy 134.62 24.13)
 		)
 		(stroke
@@ -2759,6 +2899,16 @@
 			(type default)
 		)
 		(uuid "91324dd3-bc03-43e5-bdb8-8c54b955e026")
+	)
+	(wire
+		(pts
+			(xy 29.21 72.39) (xy 29.21 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c0edb4-5ea7-4ca7-83c0-567ae1e720af")
 	)
 	(wire
 		(pts
@@ -2829,6 +2979,16 @@
 			(type default)
 		)
 		(uuid "b29f84b7-f8d7-46f8-829b-fdae11e8df37")
+	)
+	(wire
+		(pts
+			(xy 29.21 82.55) (xy 33.655 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34b6ad8-1faa-4309-a7de-e153f0fcb6f2")
 	)
 	(wire
 		(pts
@@ -4395,6 +4555,76 @@
 		)
 	)
 	(symbol
+		(lib_id "capstone:GF-123-0054")
+		(at 36.83 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94f33666-c32f-4e76-8858-39a9dcaf262b")
+		(property "Reference" "SW4"
+			(at 36.83 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "GF-123-0054"
+			(at 36.83 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW2_GF-123-0054_CWI"
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GF-123-0054"
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d39c3c3b-4f43-4fe2-abe2-af34387b16eb")
+		)
+		(pin "2"
+			(uuid "5f9687ef-e5bb-4777-adc4-898c0cf966cc")
+		)
+		(instances
+			(project ""
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 107.315 30.48 0)
 		(unit 1)
@@ -4662,7 +4892,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 31.75 71.12 0)
+		(at 29.21 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4671,7 +4901,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad850ef9-9844-4a24-8b00-115227435a41")
 		(property "Reference" "#PWR033"
-			(at 31.75 74.93 0)
+			(at 29.21 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +4910,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 31.75 66.04 0)
+			(at 29.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +4918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 71.12 0)
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +4927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 71.12 0)
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4706,7 +4936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 31.75 71.12 0)
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,74 +5250,6 @@
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 35.56 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb6ab82a-f4eb-4cef-a27f-da5ccae606d9")
-		(property "Reference" "R14"
-			(at 35.56 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 35.56 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 35.56 74.168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 35.56 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb5a6abe-8d8f-45db-ac3c-d89b30cfde88")
-		)
-		(pin "2"
-			(uuid "3e17b508-caa7-471e-bd78-5fcf79e6e538")
-		)
-		(instances
-			(project "ee115-capstone"
-				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
-					(reference "R14")
 					(unit 1)
 				)
 			)

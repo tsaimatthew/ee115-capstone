@@ -5,6 +5,113 @@
 	(uuid "18b1cfc3-f080-4864-a251-40197e023aa4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1086,6 +1193,12 @@
 		)
 	)
 	(junction
+		(at 59.69 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b0f73bb-8ace-44dc-aeee-0d6ededba263")
+	)
+	(junction
 		(at 59.69 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1096,6 +1209,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5422f6fc-1c31-4f71-b19d-5f2f41820ad7")
+	)
+	(junction
+		(at 142.24 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e48e06c-a195-40de-bad9-7cf145b740c8")
 	)
 	(junction
 		(at 141.605 86.36)
@@ -1184,6 +1303,16 @@
 			(type default)
 		)
 		(uuid "251a3902-f63d-4c85-be99-c8cc4402aa90")
+	)
+	(wire
+		(pts
+			(xy 142.24 60.96) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a1b730-02ce-45c8-bcea-808922e636e3")
 	)
 	(wire
 		(pts
@@ -1307,7 +1436,17 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 58.42) (xy 59.69 78.74)
+			(xy 59.69 76.835) (xy 59.69 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab022a74-56eb-4313-be21-d8923f7d1a9a")
+	)
+	(wire
+		(pts
+			(xy 59.69 58.42) (xy 59.69 76.835)
 		)
 		(stroke
 			(width 0)
@@ -1377,7 +1516,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 60.96) (xy 146.05 60.96)
+			(xy 141.605 60.96) (xy 142.24 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1574,6 +1713,71 @@
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/d0fb3630-b484-4405-bb3b-b4246eeb0dac"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 76.835 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08faf502-0756-4be4-a52d-93dd46dabb8c")
+		(property "Reference" "TP25"
+			(at 56.388 71.755 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 56.388 74.295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 59.69 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "713eeb79-f648-4ffd-9b94-3bb8281f863c")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/d0fb3630-b484-4405-bb3b-b4246eeb0dac"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -2440,6 +2644,73 @@
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/d0fb3630-b484-4405-bb3b-b4246eeb0dac"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.24 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8da2395-fc12-4e25-aca6-c434225148f7")
+		(property "Reference" "TP27"
+			(at 144.145 56.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.145 58.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54104615-f4d6-4a77-a137-2fb4ab392962")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/d0fb3630-b484-4405-bb3b-b4246eeb0dac"
+					(reference "TP27")
 					(unit 1)
 				)
 			)

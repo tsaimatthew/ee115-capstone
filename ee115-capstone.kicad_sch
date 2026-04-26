@@ -987,50 +987,43 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LDO1111:LD39150DT33-R"
+		(symbol "Diode:SS14"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "LD39150DT33-R"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SOT_0DT33-R_STM"
-				(at 0 0 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
+					)
+				)
+			)
+			(property "Value" "SS14"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld39150.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
+			(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1039,15 +1032,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LD39150DT33-R"
+			(property "Description" "40V 1A Schottky Diode, SMA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1056,7 +1041,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT_0DT33-R_STM SOT_0DT33-R_STM-M SOT_0DT33-R_STM-L"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1065,13 +1050,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "LD39150DT33-R_0_1"
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS14_0_1"
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1080,10 +1074,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -7.62) (xy 33.02 -7.62)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1092,32 +1086,22 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.127)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 33.02 -7.62) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 7.62)
-					(name "VI"
+			)
+			(symbol "SS14_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1132,28 +1116,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "GND"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2129,6 +2095,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "capstone:NCP565D2T33R4G"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "NCP565D2T33R4G"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "D2PAK3_ONS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "NCP565D2T33R4G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NCP565D2T33R4G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D2PAK3_ONS D2PAK3_ONS-M D2PAK3_ONS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NCP565D2T33R4G_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 33.02 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -7.62) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NCP565D2T33R4G_1_1"
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2512,6 +2682,12 @@
 		(uuid "44f22689-50d3-446b-a182-49e53a7949f0")
 	)
 	(junction
+		(at 146.685 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45aac1fc-3bf3-43c5-b351-420bb0eea75f")
+	)
+	(junction
 		(at 59.69 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2527,7 +2703,7 @@
 		(at 41.91 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a68a708-aeb9-4b86-b064-581a888b7c7b")
+		(uuid "578bf2ce-e304-443c-b6ee-14d44e3c57bb")
 	)
 	(junction
 		(at 59.69 90.17)
@@ -2560,12 +2736,6 @@
 		(uuid "8e2b78bc-e3a4-4ee1-863f-b02d52128777")
 	)
 	(junction
-		(at 147.955 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98d425fd-62b0-430c-bc3c-23aca10f8cd6")
-	)
-	(junction
 		(at 33.655 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2588,6 +2758,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d15e6557-4b17-475c-923f-f1f7e2f555cb")
+	)
+	(junction
+		(at 157.48 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6248d1d-c69d-45f3-bc76-35a227fc4f08")
 	)
 	(junction
 		(at 29.21 82.55)
@@ -2657,7 +2833,27 @@
 	)
 	(wire
 		(pts
-			(xy 149.225 82.55) (xy 149.225 81.28)
+			(xy 31.75 57.15) (xy 41.91 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081b3df7-3716-4711-bedf-50037aabdb38")
+	)
+	(wire
+		(pts
+			(xy 157.48 82.55) (xy 161.29 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a772b3b-bab3-47b2-91bd-c3149f8be10a")
+	)
+	(wire
+		(pts
+			(xy 161.29 82.55) (xy 161.29 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2684,16 +2880,6 @@
 			(type default)
 		)
 		(uuid "11b82a0d-e22e-4a1c-a905-c26c573c7b0a")
-	)
-	(wire
-		(pts
-			(xy 147.955 82.55) (xy 149.225 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "160dfeb5-8991-43cf-9723-e383009339f2")
 	)
 	(wire
 		(pts
@@ -2747,16 +2933,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 82.55) (xy 147.955 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "313cfecf-008d-4273-aec1-d9a74afebf46")
-	)
-	(wire
-		(pts
 			(xy 183.515 64.77) (xy 193.04 64.77)
 		)
 		(stroke
@@ -2764,6 +2940,16 @@
 			(type default)
 		)
 		(uuid "3561486e-0566-433d-8d2e-5b5383c82c5f")
+	)
+	(wire
+		(pts
+			(xy 100.965 57.15) (xy 157.48 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4835a889-66d4-4fbf-9a26-8a28f51fb1eb")
 	)
 	(wire
 		(pts
@@ -2847,6 +3033,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.685 82.55) (xy 157.48 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6590df4a-d94f-4470-93e3-83637877fac4")
+	)
+	(wire
+		(pts
 			(xy 77.47 74.93) (xy 81.915 74.93)
 		)
 		(stroke
@@ -2897,13 +3093,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 57.15) (xy 41.91 57.15)
+			(xy 146.05 82.55) (xy 146.685 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78b747c8-9baf-403e-8c37-bf23a1c1cf91")
+		(uuid "7cdbe144-d557-408a-bc78-7ec82f13a84e")
 	)
 	(wire
 		(pts
@@ -2924,6 +3120,16 @@
 			(type default)
 		)
 		(uuid "7ee09863-0d8d-4d5b-954d-6ae15e7258b0")
+	)
+	(wire
+		(pts
+			(xy 111.76 73.66) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa6485d-a0f2-4de7-9688-9e26068606fb")
 	)
 	(wire
 		(pts
@@ -2977,16 +3183,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 73.66) (xy 121.92 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99e35236-4ea9-403e-94e3-bd3c8875895e")
-	)
-	(wire
-		(pts
 			(xy 120.015 86.36) (xy 120.015 77.47)
 		)
 		(stroke
@@ -3004,6 +3200,16 @@
 			(type default)
 		)
 		(uuid "a16c8ca9-6f41-4db4-a1e4-6fe29bd72669")
+	)
+	(wire
+		(pts
+			(xy 31.75 53.34) (xy 31.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2db82d6-4277-4a60-a0e6-5e0f5ba880b2")
 	)
 	(wire
 		(pts
@@ -3027,13 +3233,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 57.15) (xy 39.37 72.39)
+			(xy 157.48 57.15) (xy 157.48 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aaf6631f-1439-4e96-a297-f9ff279d268f")
+		(uuid "ae2233e1-6818-46eb-a830-13d012f78bfd")
 	)
 	(wire
 		(pts
@@ -3087,16 +3293,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.955 57.15) (xy 147.955 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf5f579d-ed1f-4fa0-90b2-d7b206bd272f")
-	)
-	(wire
-		(pts
 			(xy 87.63 74.93) (xy 87.63 104.14)
 		)
 		(stroke
@@ -3137,7 +3333,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.965 57.15) (xy 147.955 57.15)
+			(xy 98.425 57.15) (xy 95.885 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3325,6 +3521,16 @@
 		)
 		(uuid "c765ac50-04d3-414e-b77d-8a5a10d57e2e")
 	)
+	(label "PWR_IN"
+		(at 24.13 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed714568-8593-472f-bbfb-85e5290741b2")
+	)
 	(label "Thermistor"
 		(at 191.77 67.31 180)
 		(effects
@@ -3406,6 +3612,140 @@
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
 					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28a1d54f-d292-4a53-b164-eec729a076b2")
+		(property "Reference" "#PWR0104"
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05fa1d40-97ad-40d8-b298-b49d06a699b3")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 27.94 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e4632ac-caa3-4e09-bd63-f2393e7fd919")
+		(property "Reference" "D5"
+			(at 28.2575 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 28.2575 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 27.94 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 27.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 27.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e62f6e6-46c8-4718-b1f8-db53457ffe7c")
+		)
+		(pin "2"
+			(uuid "fcfdd493-ed5b-4c1c-b61b-09374a4b6949")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4227,7 +4567,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 149.225 81.28 0)
+		(at 161.29 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4236,7 +4576,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bd2516f-a6d3-4d04-a39d-18c73048d02c")
 		(property "Reference" "#PWR095"
-			(at 149.225 85.09 0)
+			(at 161.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4585,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 149.225 76.2 0)
+			(at 161.29 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.225 81.28 0)
+			(at 161.29 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.225 81.28 0)
+			(at 161.29 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +4611,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 149.225 81.28 0)
+			(at 161.29 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,79 +4760,6 @@
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LDO1111:LD39150DT33-R")
-		(at 41.91 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "836fbae9-6f59-4ee4-8078-8cbbf37ffad1")
-		(property "Reference" "U13"
-			(at 62.23 47.625 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LD39150DT33-R"
-			(at 62.23 50.165 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints_pretty:SOT_0DT33-R_STM"
-			(at 41.91 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld39150.pdf"
-			(at 41.91 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "672ceb62-ebef-4457-9cf9-d46079e411b6")
-		)
-		(pin "1"
-			(uuid "dc69e4fa-17ff-49ed-8c47-540bd011e8b0")
-		)
-		(pin "2"
-			(uuid "1d265945-d599-428e-9abf-690c30588f57")
-		)
-		(instances
-			(project ""
-				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
-					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -4657,7 +4924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints_pretty:SW2_GF-123-0054_CWI"
+		(property "Footprint" "footprints:SW2_GF-123-0054_CWI"
 			(at 36.83 72.39 0)
 			(effects
 				(font
@@ -4696,73 +4963,6 @@
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 107.315 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "987026dd-3e63-41d3-a3e7-0308f29508ec")
-		(property "Reference" "TP39"
-			(at 109.855 25.9079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 109.855 28.4479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 112.395 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 112.395 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 107.315 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62d1f889-c9f8-42fe-8024-1f6660fda1a1")
-		)
-		(instances
-			(project "ee115-capstone"
-				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
-					(reference "TP39")
 					(unit 1)
 				)
 			)
@@ -5134,35 +5334,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 90.17 27.305 0)
+		(lib_id "capstone:NCP565D2T33R4G")
+		(at 41.91 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c21c8c65-3aa5-4ea0-a369-1c5c3fe68166")
-		(property "Reference" "TP37"
-			(at 92.71 22.7329 0)
+		(uuid "b47f48fb-f8ad-4186-b6ec-d043f79a23cf")
+		(property "Reference" "U22"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "NCP565D2T33R4G"
+			(at 62.23 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:D2PAK3_ONS"
+			(at 41.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 92.71 25.2729 0)
+		(property "Datasheet" "NCP565D2T33R4G"
+			(at 41.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 95.25 27.305 0)
+		(property "Description" ""
+			(at 41.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,31 +5388,22 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 95.25 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "4"
+			(uuid "d2d2c5f7-d865-476e-8bf0-9b381aaaa3e0")
 		)
-		(property "Description" "test point"
-			(at 90.17 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "6b783144-3039-4233-b0ab-8f7776fab0bf")
+		)
+		(pin "3"
+			(uuid "1e6a7a6d-cd31-4235-9f8b-1eff79748cea")
 		)
 		(pin "1"
-			(uuid "d0775480-ee01-4b3f-b085-fb008534c13d")
+			(uuid "8f649561-7832-4a9b-ac5a-4ad883cdd87c")
 		)
 		(instances
 			(project ""
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
-					(reference "TP37")
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -5778,73 +5987,6 @@
 			(project ""
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 102.235 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef9d0784-4681-4aa3-bd18-35809e066650")
-		(property "Reference" "TP38"
-			(at 104.775 25.9079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 104.775 28.4479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 107.315 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.315 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 102.235 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d0ab38b-ea3f-495b-a2f5-1ee05b1462ca")
-		)
-		(instances
-			(project "ee115-capstone"
-				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
-					(reference "TP38")
 					(unit 1)
 				)
 			)

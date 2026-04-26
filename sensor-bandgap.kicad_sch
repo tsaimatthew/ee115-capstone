@@ -3881,7 +3881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 43.815 59.817 90)
 			(effects
 				(font
@@ -4085,7 +4085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 219.4052 148.59 0)
 			(effects
 				(font
@@ -4414,7 +4414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 135.89 123.952 90)
 			(effects
 				(font
@@ -4551,7 +4551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 215.5952 110.49 0)
 			(effects
 				(font
@@ -4821,7 +4821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 49.2252 71.12 0)
 			(effects
 				(font
@@ -5986,7 +5986,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 77.978 90.17 90)
 			(effects
 				(font

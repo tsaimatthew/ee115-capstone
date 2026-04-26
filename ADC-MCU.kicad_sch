@@ -4567,12 +4567,6 @@
 		(uuid "a845b154-0ce6-44ca-a3f2-d14cc7de5d40")
 	)
 	(junction
-		(at 266.7 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5fa8322-ffa8-4ccc-b77b-d5e4289e907c")
-	)
-	(junction
 		(at 255.27 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4595,6 +4589,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecdca721-c17a-4dae-9534-cde7aea7b8ae")
+	)
+	(junction
+		(at 266.7 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd742c29-1dd6-4d1d-8049-8b7633e90556")
 	)
 	(junction
 		(at 21.59 35.56)
@@ -5009,16 +5009,6 @@
 			(type default)
 		)
 		(uuid "645cdea7-a63c-45fd-942c-8af8587dc60e")
-	)
-	(wire
-		(pts
-			(xy 205.74 55.88) (xy 205.74 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6887b3bf-8d66-45b4-be83-077cbd921c4d")
 	)
 	(wire
 		(pts
@@ -6244,7 +6234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 105.41 105.7148 0)
 			(effects
 				(font
@@ -6853,7 +6843,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 174.498 69.85 90)
 			(effects
 				(font
@@ -7137,7 +7127,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 185.7248 139.7 0)
 			(effects
 				(font
@@ -7180,6 +7170,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 205.74 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "328953d6-6245-4acf-a8ab-fe45f7aabd58")
+		(property "Reference" "#PWR015"
+			(at 205.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 205.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 205.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "018ba9f1-3f46-47cd-b7a9-b771a47a86b3")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 165.1 25.4 180)
 		(unit 1)
@@ -7207,7 +7263,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 164.1348 21.59 0)
 			(effects
 				(font
@@ -7343,7 +7399,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 271.018 73.66 90)
 			(effects
 				(font
@@ -7386,73 +7442,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 266.7 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34ea571c-3a36-4a9a-a50b-ba23d38cbad8")
-		(property "Reference" "#PWR026"
-			(at 266.7 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 269.24 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 266.7 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1517500c-2ddc-49f0-a0cf-136f25317908")
-		)
-		(instances
-			(project "ee115-capstone"
-				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 260.35 34.29 180)
 		(unit 1)
@@ -7480,7 +7469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 262.128 34.29 90)
 			(effects
 				(font
@@ -7684,7 +7673,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 209.8548 139.7 0)
 			(effects
 				(font
@@ -8153,7 +8142,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 136.1948 21.59 0)
 			(effects
 				(font
@@ -8223,7 +8212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 23.368 39.37 90)
 			(effects
 				(font
@@ -8762,6 +8751,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 196.85 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58ea3fbe-16ec-4277-b57f-38ab87005fbf")
+		(property "Reference" "#PWR055"
+			(at 196.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 196.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3d43e85-1926-4625-b1e0-7cbc7894b894")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 274.32 77.47 0)
 		(unit 1)
@@ -8986,7 +9041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 107.95 155.448 90)
 			(effects
 				(font
@@ -9487,7 +9542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 202.438 26.67 90)
 			(effects
 				(font
@@ -9625,7 +9680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 198.4248 139.7 0)
 			(effects
 				(font
@@ -9668,17 +9723,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 247.65 127 0)
+		(lib_id "power:+3V3")
+		(at 266.7 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "75ae0d64-4d80-454c-bd7f-2c6b74cd4c7c")
-		(property "Reference" "#PWR097"
-			(at 247.65 130.81 0)
+		(uuid "758836b4-25ee-48aa-8177-535286ad4510")
+		(property "Reference" "#PWR026"
+			(at 266.7 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9686,17 +9741,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
-			(at 250.19 125.7299 0)
+		(property "Value" "+3V3"
+			(at 266.7 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 127 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9705,7 +9759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 127 0)
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,75 +9767,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 247.65 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac90f48b-61b0-4223-8824-8423c0bcc7a1")
-		)
-		(instances
-			(project "ee115-capstone"
-				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 205.74 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a019f2f-8c3e-4181-9c68-05cda7bfd3fa")
-		(property "Reference" "#PWR015"
-			(at 205.74 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 208.28 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 205.74 57.15 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 266.7 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9790,12 +9777,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "14fecf59-0540-452a-9996-bddbb187e1ee")
+			(uuid "cf4348f5-21e2-4598-ab91-891e1e1a903c")
 		)
 		(instances
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
-					(reference "#PWR015")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10025,7 +10012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 177.8 110.998 90)
 			(effects
 				(font
@@ -10291,7 +10278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 91.44 110.998 90)
 			(effects
 				(font
@@ -10668,17 +10655,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 279.4 66.04 0)
+		(lib_id "power:+3V3")
+		(at 270.51 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9cfcb477-5042-4f9e-bca8-702f219bb6c2")
-		(property "Reference" "#PWR056"
-			(at 279.4 69.85 0)
+		(uuid "9ef2550a-2b9f-4225-a66d-30feda0a4fb3")
+		(property "Reference" "#PWR057"
+			(at 270.51 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10686,17 +10673,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
-			(at 281.94 64.7699 0)
+		(property "Value" "+3V3"
+			(at 270.51 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 66.04 0)
+			(at 270.51 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10705,7 +10691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 66.04 0)
+			(at 270.51 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10713,8 +10699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 279.4 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 270.51 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10723,12 +10709,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce377bf4-6126-41eb-afee-b89ff87e0997")
+			(uuid "ddc7e28f-b6ab-4af7-b8f7-c2a0bf1dffb4")
 		)
 		(instances
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -10762,7 +10748,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 161.5948 139.7 0)
 			(effects
 				(font
@@ -10920,7 +10906,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 198.628 73.66 90)
 			(effects
 				(font
@@ -11023,6 +11009,72 @@
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 247.65 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aee8f330-ade6-4222-b6ff-0bb87294b504")
+		(property "Reference" "#PWR097"
+			(at 247.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 247.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0da6cfe9-e99f-4d48-98ea-b2458b35bcc4")
+		)
+		(instances
+			(project "ee115-capstone"
+				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -11293,16 +11345,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 270.51 69.85 0)
+		(lib_id "power:+3V3")
+		(at 279.4 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bba35dcd-6acd-4536-96bc-9a4c6e5c050c")
-		(property "Reference" "#PWR057"
-			(at 270.51 73.66 0)
+		(fields_autoplaced yes)
+		(uuid "bb6e4443-0a0b-4113-83bf-e2d7bb83ed22")
+		(property "Reference" "#PWR056"
+			(at 279.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11310,17 +11363,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
-			(at 271.78 68.072 0)
+		(property "Value" "+3V3"
+			(at 279.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 69.85 0)
+			(at 279.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11329,7 +11381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 69.85 0)
+			(at 279.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11337,8 +11389,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 270.51 69.85 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 279.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11347,12 +11399,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d16eca4-f271-46f7-b739-bf971abd6d74")
+			(uuid "08e068bc-ece7-4c6d-9e9b-70acefaba498")
 		)
 		(instances
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
-					(reference "#PWR057")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -11386,7 +11438,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 23.368 31.75 90)
 			(effects
 				(font
@@ -11860,7 +11912,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 182.118 67.31 90)
 			(effects
 				(font
@@ -12036,73 +12088,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 196.85 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6634622-da17-49dd-a72d-2c927f32d18a")
-		(property "Reference" "#PWR055"
-			(at 196.85 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 199.39 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 196.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8e033ad-9a2b-4653-8ac4-5b5cbbf7e2e9")
-		)
-		(instances
-			(project "ee115-capstone"
-				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/70c590be-37b3-451b-9092-80cd15b0f8be"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 168.91 86.36 0)
 		(unit 1)
@@ -12196,7 +12181,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 174.2948 139.7 0)
 			(effects
 				(font
@@ -12266,7 +12251,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 260.6548 58.42 0)
 			(effects
 				(font
@@ -12334,7 +12319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 109.22 149.098 90)
 			(effects
 				(font
@@ -12470,7 +12455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 207.518 59.69 90)
 			(effects
 				(font
@@ -12982,7 +12967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 281.178 69.85 90)
 			(effects
 				(font
@@ -13118,7 +13103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 204.7748 67.31 0)
 			(effects
 				(font
@@ -13186,7 +13171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 186.69 113.538 90)
 			(effects
 				(font
@@ -13256,7 +13241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 265.7348 58.42 0)
 			(effects
 				(font

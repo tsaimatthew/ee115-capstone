@@ -1826,12 +1826,6 @@
 		(uuid "e4e71171-e487-43fe-b905-392c6159d07c")
 	)
 	(junction
-		(at 124.46 123.825)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5caf008-8ac8-4584-8156-b7495563a4e0")
-	)
-	(junction
 		(at 114.3 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1915,16 +1909,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 123.825) (xy 159.385 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3140c595-ad76-4b73-88d0-7be21c92867f")
-	)
-	(wire
-		(pts
 			(xy 257.81 129.54) (xy 256.54 129.54)
 		)
 		(stroke
@@ -1935,7 +1919,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.205 123.825) (xy 124.46 123.825)
+			(xy 116.205 123.825) (xy 159.385 123.825)
 		)
 		(stroke
 			(width 0)
@@ -2766,7 +2750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 76.2 112.268 90)
 			(effects
 				(font
@@ -2902,7 +2886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 100.457 91.44 90)
 			(effects
 				(font
@@ -2972,7 +2956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 165.4302 136.525 0)
 			(effects
 				(font
@@ -3115,73 +3099,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 123.825 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3af5ce4f-9683-41b3-a2f3-bf5e83478e14")
-		(property "Reference" "TP20"
-			(at 126.365 119.2529 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 126.365 121.7929 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 129.54 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 124.46 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c08bff3d-f2b4-4b99-8384-fb7f0bc40cc3")
-		)
-		(instances
-			(project "ee115-capstone"
-				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/7b7808b9-ad0e-40e5-acbd-cc767749d54b/a9cb2592-b885-475a-9096-2cffb4092259"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 116.205 106.045 0)
 		(unit 1)
@@ -3209,7 +3126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 114.427 106.045 90)
 			(effects
 				(font
@@ -3279,7 +3196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 114.427 132.08 90)
 			(effects
 				(font
@@ -3322,73 +3239,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 100.33 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48cd3119-dbd4-4028-85ee-599554752daf")
-		(property "Reference" "TP26"
-			(at 102.235 90.6779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 102.235 93.2179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 105.41 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 100.33 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bca91ad2-3f11-47b0-87aa-11ed07dffe05")
-		)
-		(instances
-			(project "ee115-capstone"
-				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f/7b7808b9-ad0e-40e5-acbd-cc767749d54b/a9cb2592-b885-475a-9096-2cffb4092259"
-					(reference "TP26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 116.205 90.17 0)
 		(unit 1)
@@ -3416,7 +3266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 114.427 90.17 90)
 			(effects
 				(font
@@ -3685,7 +3535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 84.582 86.36 90)
 			(effects
 				(font
@@ -3966,7 +3816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 94.107 91.44 90)
 			(effects
 				(font
@@ -4034,7 +3884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 215.9 90.4748 0)
 			(effects
 				(font
@@ -4104,7 +3954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 98.552 101.6 90)
 			(effects
 				(font
@@ -4681,7 +4531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 215.9 120.9548 0)
 			(effects
 				(font
@@ -4817,7 +4667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:res_0805_nosilk"
 			(at 84.582 78.105 90)
 			(effects
 				(font
@@ -5322,7 +5172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 101.2952 120.65 0)
 			(effects
 				(font
@@ -5588,7 +5438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "footprints_pretty:0805_cap_nosilk"
 			(at 172.085 104.4448 0)
 			(effects
 				(font

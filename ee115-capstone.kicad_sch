@@ -3693,7 +3693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e4632ac-caa3-4e09-bd63-f2393e7fd919")
-		(property "Reference" "D5"
+		(property "Reference" "D101"
 			(at 28.2575 46.99 0)
 			(effects
 				(font
@@ -3745,7 +3745,7 @@
 		(instances
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
-					(reference "D5")
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -4370,7 +4370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b20b1e8-9611-489b-9376-159b55e7dbd8")
-		(property "Reference" "C51"
+		(property "Reference" "C102"
 			(at 93.98 59.6899 0)
 			(effects
 				(font
@@ -4424,7 +4424,7 @@
 		(instances
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
-					(reference "C51")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -4908,7 +4908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94f33666-c32f-4e76-8858-39a9dcaf262b")
-		(property "Reference" "SW4"
+		(property "Reference" "SW101"
 			(at 36.83 66.04 0)
 			(effects
 				(font
@@ -4962,7 +4962,7 @@
 		(instances
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
-					(reference "SW4")
+					(reference "SW101")
 					(unit 1)
 				)
 			)
@@ -5343,7 +5343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b47f48fb-f8ad-4186-b6ec-d043f79a23cf")
-		(property "Reference" "U22"
+		(property "Reference" "U101"
 			(at 62.23 46.99 0)
 			(effects
 				(font
@@ -5403,7 +5403,7 @@
 		(instances
 			(project ""
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
-					(reference "U22")
+					(reference "U101")
 					(unit 1)
 				)
 			)
@@ -5485,7 +5485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd38b769-a27d-4331-b7e9-0276e311fb3f")
-		(property "Reference" "R49"
+		(property "Reference" "R101"
 			(at 97.155 50.8 90)
 			(effects
 				(font
@@ -5537,7 +5537,7 @@
 		(instances
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
-					(reference "R49")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -5619,7 +5619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcc28272-f3e1-46b2-8ccd-cf8f517ae692")
-		(property "Reference" "C50"
+		(property "Reference" "C101"
 			(at 45.72 59.6899 0)
 			(effects
 				(font
@@ -5673,7 +5673,7 @@
 		(instances
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
-					(reference "C50")
+					(reference "C101")
 					(unit 1)
 				)
 			)

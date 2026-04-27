@@ -2670,12 +2670,6 @@
 		(uuid "3296d675-4a76-4ef4-963b-82d12f76fc23")
 	)
 	(junction
-		(at 29.21 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b955417-bb77-426d-8f53-d16c2cf218b7")
-	)
-	(junction
 		(at 55.88 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2910,16 +2904,6 @@
 			(type default)
 		)
 		(uuid "2303befc-434a-47fe-9011-03ed8c8d93a2")
-	)
-	(wire
-		(pts
-			(xy 29.21 71.12) (xy 29.21 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2644bdb0-e5ae-43fc-b790-1b1d7cf72178")
 	)
 	(wire
 		(pts
@@ -5162,72 +5146,6 @@
 			(project "ee115-capstone"
 				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+9V")
-		(at 29.21 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad850ef9-9844-4a24-8b00-115227435a41")
-		(property "Reference" "#PWR033"
-			(at 29.21 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+9V"
-			(at 29.21 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 29.21 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48ccce49-c048-4421-ba5f-015b7ce4a291")
-		)
-		(instances
-			(project ""
-				(path "/80dfed98-7d85-4c9a-bb85-182165e7352f"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)

@@ -5642,6 +5642,16 @@
 		)
 		(uuid "7cdd97be-c1b5-4745-ad50-7c7d3d1c0266")
 	)
+	(label "ESP_ADC_1"
+		(at 220.98 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "854224d2-158f-48ac-ba1e-bcb1d7355b90")
+	)
 	(label "COMP_OUT"
 		(at 256.54 72.39 0)
 		(effects
@@ -5702,16 +5712,6 @@
 		)
 		(uuid "974b4184-d7e1-4602-a810-e8233c2cea2f")
 	)
-	(label "ESP_ADC_1"
-		(at 220.98 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c3833670-b9c7-4793-b3aa-30a264d42ccc")
-	)
 	(label "USB_D+"
 		(at 259.08 27.94 0)
 		(effects
@@ -5731,6 +5731,16 @@
 			(justify right bottom)
 		)
 		(uuid "ce698b2e-7d97-4a22-9348-1dca158fe0a4")
+	)
+	(label "ESP_ADC_2"
+		(at 220.98 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cfda909f-a223-4439-99c9-ba6729ea0dd6")
 	)
 	(label "USB_D-"
 		(at 256.54 82.55 0)
@@ -5771,16 +5781,6 @@
 			(justify right bottom)
 		)
 		(uuid "e66fc300-d775-4359-b71d-494e659876b9")
-	)
-	(label "ESP_ADC_2"
-		(at 220.98 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e7ff69ad-51df-482f-96f7-40b34d33261c")
 	)
 	(label "MUX_A"
 		(at 213.36 95.25 180)

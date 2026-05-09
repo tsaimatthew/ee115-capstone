@@ -3873,7 +3873,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "400"
 			(at 43.815 58.0119 90)
 			(effects
 				(font
@@ -4406,7 +4406,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "63"
 			(at 135.89 121.92 90)
 			(effects
 				(font
@@ -4812,7 +4812,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "10uF"
 			(at 51.435 68.5799 0)
 			(effects
 				(font
@@ -5747,7 +5747,7 @@
 				)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "NPN 40V"
 			(at 48.26 50.2103 90)
 			(effects
 				(font
@@ -5977,7 +5977,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.87k"
 			(at 78.74 91.4399 0)
 			(effects
 				(font

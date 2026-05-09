@@ -2947,7 +2947,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1uF"
 			(at 167.64 133.9849 0)
 			(effects
 				(font
@@ -3876,7 +3876,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1uF"
 			(at 212.09 86.36 90)
 			(effects
 				(font
@@ -4523,7 +4523,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1uF"
 			(at 212.09 116.84 90)
 			(effects
 				(font
@@ -5430,7 +5430,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "1uF"
 			(at 168.275 101.1507 90)
 			(effects
 				(font
